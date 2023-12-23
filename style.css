@@ -74,5 +74,5 @@
     height: 400px;
 }
 @media (max-width:400px){
-    .card{
+    .card,.about-div,.profile-pic,.my-carrier{
         display:block !important;}}
