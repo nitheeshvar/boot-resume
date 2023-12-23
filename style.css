@@ -1,0 +1,75 @@
+.container-about,.container-skill{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.about-div,.profile-pic,.my-carrier{
+    flex-basis: 34%;
+    background-color: yellow;
+}
+.profile-pic img{
+    border-radius: 50%;
+    animation:scale 2s  ;
+}
+@keyframes scale{
+    0%{
+        opacity: 0.5;
+        scale: 0.1;
+    }
+     25%{
+        opacity: 0.7;
+       scale: 0.4;
+    }
+    50%{
+        opacity: 0.9;
+        scale: 0.6;
+    }
+    75%{
+        opacity: 1;
+        scale: 0.7;
+    }
+    100%{
+        opacity: 1;
+        scale: 1;
+    }
+}
+.container-skill{
+    gap: 100px;
+}
+.card{
+    text-align: center;
+    width: 18rem;
+}
+.carousel-item{
+    margin-left: 10%;
+}
+.for-card{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 70px;
+    background-color: greenyellow;
+}
+.a-me{
+  position: absolute;
+  right: 50%; 
+  text-decoration: none;
+  color: rgb(0, 110, 255);
+}
+.final{
+    background-color: rgb(56, 142, 255);
+    padding: 50px;
+    
+}
+.final2{
+    margin-top: 50px;
+    position: absolute;
+    right: 50%;
+    
+}
+#div-me{
+    background-color: rgb(255, 154, 114);
+}
+#img-school{
+    width: 70%;
+    height: 400px;
+}
