@@ -79,5 +79,8 @@
         display:block !important;}
     .container-about{
       flex-flow: column nowrap;}
+    .profile-pic img{
+        margin-left: 120px !important;
+    }
 }
 
