@@ -80,5 +80,7 @@
     .about-div,.profile-pic,.my-carrier{
         width:100% !important;
         display:block !important;
-}}
+} .container-about{
+      flex-flow: column nowrap;}
+}
 
