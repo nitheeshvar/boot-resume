@@ -74,5 +74,10 @@
     height: 400px;
 }
 @media (max-width:400px){
-    .card,.about-div,.profile-pic,.my-carrier{
-        display:block !important;}}
+    .card{
+        display:block !important;}
+    .about-div,.profile-pic,.my-carrier{
+        width:100% !important;
+        display:block !important;
+}}
+
