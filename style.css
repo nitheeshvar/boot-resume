@@ -1,6 +1,6 @@
 .container-about,.container-skill{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .about-div,.profile-pic,.my-carrier{
@@ -45,7 +45,7 @@
 }
 .for-card{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 70px;
     background-color: greenyellow;
 }
